@@ -7,5 +7,7 @@ localStorage.setItem("project_selector", "bar-chart");
 runApp();
 
 if (module.hot) {
-  module.hot.accept();
+  module.hot.accept("./app/app", () => {
+    runApp();
+  });
 }

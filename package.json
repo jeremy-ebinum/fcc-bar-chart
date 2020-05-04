@@ -6,8 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --mode=development",
     "build": "webpack --mode=production",
-    "lint": "eslint ./src/**/*.{js}",
-    "lint:fix": "eslint ./src/**/*.{js} --fix",
+    "lint": "eslint ./src/**/*.js",
+    "lint:fix": "eslint ./src/**/*.js --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -37,6 +37,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "d3": "^5.16.0",
+    "d3-array": "^2.4.0",
     "d3-axis": "^1.0.12",
     "d3-fetch": "^1.1.2",
     "d3-scale": "^3.2.1",

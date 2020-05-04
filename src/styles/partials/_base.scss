@@ -1,4 +1,5 @@
 @import "~normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
 
 * {
   margin: 0;
@@ -8,7 +9,7 @@
 
 body {
   width: 100%;
-  font-family: $font-family-base;
+  font-family: "Ubuntu", $font-family-base;
   font-size: $font-size-base;
   font-weight: $font-weight-base;
   line-height: $line-height-base;
