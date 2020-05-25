@@ -1,5 +1,5 @@
 .o-wrapper {
-  background-color: slategrey;
+  background-color: hsl(180, 25%, 15%);
 }
 
 .c-title {
@@ -12,10 +12,32 @@
 }
 
 .c-yLabel {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 0.9em;
 }
 
 .tick {
   font-weight: 700;
+}
+
+.bar {
+  cursor: pointer;
+  fill: hsl(146, 50%, 36%);
+}
+
+.bar:hover {
+  fill: hsl(146, 50%, 66%);
+}
+
+#tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  font-size: 0.9em;
+  padding: 0.5rem 1rem;
+  background: ghostwhite;
+  box-shadow: 1px 1px 7px;
+  pointer-events: none;
 }
